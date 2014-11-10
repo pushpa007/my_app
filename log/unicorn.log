@@ -1,0 +1,30 @@
+I, [2014-10-23T02:20:56.565030 #16271]  INFO -- : listening on addr=/tmp/unicorn.[app name].sock fd=10
+I, [2014-10-23T02:20:56.565232 #16271]  INFO -- : listening on addr=/tmp/unicorn.myapp.sock fd=11
+I, [2014-10-23T02:20:56.565343 #16271]  INFO -- : worker=0 spawning...
+I, [2014-10-23T02:20:56.567582 #16271]  INFO -- : worker=1 spawning...
+I, [2014-10-23T02:20:56.570619 #16271]  INFO -- : master process ready
+I, [2014-10-23T02:20:56.575719 #16274]  INFO -- : worker=0 spawned pid=16274
+I, [2014-10-23T02:20:56.575855 #16274]  INFO -- : Refreshing Gem list
+I, [2014-10-23T02:20:56.583637 #16276]  INFO -- : worker=1 spawned pid=16276
+I, [2014-10-23T02:20:56.583796 #16276]  INFO -- : Refreshing Gem list
+I, [2014-10-23T02:20:58.476584 #16276]  INFO -- : worker=1 ready
+I, [2014-10-23T02:20:58.476854 #16274]  INFO -- : worker=0 ready
+I, [2014-10-26T16:40:13.270236 #16271]  INFO -- : reaped #<Process::Status: pid 16274 exit 0> worker=0
+I, [2014-10-26T16:40:13.270352 #16271]  INFO -- : reaped #<Process::Status: pid 16276 exit 0> worker=1
+I, [2014-10-26T16:40:13.270436 #16271]  INFO -- : master complete
+I, [2014-10-26T16:42:01.496343 #1518]  INFO -- : unlinking existing socket=/tmp/unicorn.[app name].sock
+I, [2014-10-26T16:42:01.496602 #1518]  INFO -- : listening on addr=/tmp/unicorn.[app name].sock fd=10
+I, [2014-10-26T16:42:01.496688 #1518]  INFO -- : unlinking existing socket=/tmp/unicorn.myapp.sock
+I, [2014-10-26T16:42:01.496756 #1518]  INFO -- : listening on addr=/tmp/unicorn.myapp.sock fd=11
+I, [2014-10-26T16:42:01.496881 #1518]  INFO -- : worker=0 spawning...
+I, [2014-10-26T16:42:01.497486 #1518]  INFO -- : worker=1 spawning...
+I, [2014-10-26T16:42:01.497929 #1518]  INFO -- : master process ready
+I, [2014-10-26T16:42:01.504706 #1521]  INFO -- : worker=0 spawned pid=1521
+I, [2014-10-26T16:42:01.504936 #1521]  INFO -- : Refreshing Gem list
+I, [2014-10-26T16:42:01.507689 #1523]  INFO -- : worker=1 spawned pid=1523
+I, [2014-10-26T16:42:01.509453 #1523]  INFO -- : Refreshing Gem list
+I, [2014-10-26T16:42:04.069724 #1521]  INFO -- : worker=0 ready
+I, [2014-10-26T16:42:04.074019 #1523]  INFO -- : worker=1 ready
+I, [2014-11-10T18:56:20.135986 #1518]  INFO -- : reaped #<Process::Status: pid 1521 exit 0> worker=0
+I, [2014-11-10T18:56:20.136104 #1518]  INFO -- : reaped #<Process::Status: pid 1523 exit 0> worker=1
+I, [2014-11-10T18:56:20.136187 #1518]  INFO -- : master complete
